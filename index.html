@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Shortcut Icon -->
+    <link rel="shortcut icon" href="./assets/images/logo.jpg" />
+    <!-- Link css file -->
+    <link rel="stylesheet" href="./css/landing.css" />
+    <title>FlowX | Welcome</title>
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600&family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600&family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,300&family=Rowdies:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600&family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,300&family=Rowdies:wght@300&family=Sarabun:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="container">
+      <div class="app-title-section">
+        <h1 class="app-title">FlowX</h1>
+      </div>
+      <div class="app-content">
+        <div class="top-section">
+          <section class="slider-section">
+            <!-- addiing slider image -->
+            <section class="slider-image fade">
+              <h1 style="transition:cubic-bezier(0.55, 0.055, 0.675, 0.19)  3s; position: relative; top: 3rem; left: 5rem;background: none;">husam kamla
+                
+              </h1>
+              <img
+                class="image-slide"
+                src="./assets/images/slider/3.svg"
+                alt="rainy-vector"
+              />
+            </section>
+            <section class="slider-image fade">
+              <img
+                class="image-slide"
+                src="./assets/images/slider/1.svg"
+                alt="rainy-vector"
+              />
+            </section>
+            <section class="slider-image fade">
+              <img
+                class="image-slide"
+                src="./assets/images/slider/6.svg"
+                alt="rainy-vector"
+              />
+            </section>
+            <section class="slider-image fade">
+              <img
+                class="image-slide"
+                src="./assets/images/slider/5.svg"
+                alt="rainy-vector"
+              />
+            </section>
+            <!-- adding the dots -->
+            <div class="dot-section">
+              <span class="dot" onclick="showSlide(1)"></span>
+              <span class="dot" onclick="showSlide(2)"></span>
+              <span class="dot" onclick="showSlide(3)"></span>
+              <span class="dot" onclick="showSlide(4)"></span>
+            </div>
+          </section>
+        </div>
+        <div class="bottom-section">
+          <p class="app-discription">
+            Our app provides accurate weather information based on your location
+          </p>
+          <button class="start-btn" id="start-btn">Let’s go!</button>
+        </div>
+      </div>
+    </section>
+    <script src="./js/landing.js"></script>
+  </body>
+</html>
